@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srilekha Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #222;
+            padding: 15px 50px;
+        }
+
+        .logo {
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px;
+            text-align: center;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Home Section */
+        #home {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 100px;
+        }
+
+        .home-content {
+            max-width: 500px;
+        }
+
+        .home-content h1 {
+            font-size: 40px;
+        }
+
+        .home-content span {
+            color: orange;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        /* Skills */
+        .skill {
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        .progress-bar {
+            width: 100%;
+            background: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-bar div {
+            height: 10px;
+            background: orange;
+        }
+
+        /* Projects */
+        .project {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        /* Contact */
+        .social-icons a {
+            margin: 10px;
+            font-size: 24px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Srilekha</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">My Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Srilekha</span></h1>
+            <h2>Web Developer & Designer</h2>
+            <p>I'm a passionate BCA 2nd-year student, specializing in web development and programming.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="home-image">
+            <img src="Srilekha.jpg" width="300">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Srilekha, a dedicated 2nd-year BCA student with expertise in web technologies like HTML, CSS, JavaScript, Bootstrap, and PHP.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar"><div style="width: 90%"></div></div>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar"><div style="width: 85%"></div></div>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress-bar"><div style="width: 70%"></div></div>
+        </div>
+        <div class="skill">
+            <span>PHP</span>
+            <div class="progress-bar"><div style="width: 75%"></div></div>
+        </div>
+        <div class="skill">
+            <span>MySQL</span>
+            <div class="progress-bar"><div style="width: 80%"></div></div>
+        </div>
+    </section>
+
+    <!-- My Works (Projects) -->
+    <section id="projects">
+        <h2>My Works</h2>
+        <div class="project">
+            <h3>Placement Management Portal</h3>
+            <p>A web application for IT & CA placement management.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio showcasing my skills and projects.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:srilekha@example.com">srilekha@example.com</a></p>
+        <p>Phone: <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </section>
+
+</body>
+</html>
